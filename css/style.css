@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+
+header a {
+    font-family: Poppins;
+    font-size: 0.9em;
+    color: #525252;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1B88EB;
+}
+
+header .nav-link:hover {
+    color: black;
+}
